@@ -705,6 +705,35 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1016/j.immuni.2024.06.014
+  title: "Distinct epigenomic landscapes underlie tissue-specific memory T\_cell differentiation"
+  authors:
+  - Frank A. Buquicchio
+  - Raissa Fonseca
+  - Patrick K. Yan
+  - Fangyi Wang
+  - Maximilien Evrard
+  - Andreas Obers
+  - Jacob C. Gutierrez
+  - Colin J. Raposo
+  - Julia A. Belk
+  - Bence Daniel
+  - Pirooz Zareie
+  - Kathryn E. Yost
+  - Yanyan Qi
+  - Yajie Yin
+  - Katherine F. Nico
+  - Flora M. Tierney
+  - Michael R. Howitt
+  - Caleb A. Lareau
+  - Ansuman T. Satpathy
+  - Laura K. Mackay
+  publisher: Immunity
+  date: '2024-07-01'
+  link: https://doi.org/gt5f8c
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/franktrm.png
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.immuni.2024.04.007
   title: A CTCF-binding site in the Mdm1-Il22-Ifng locus shapes cytokine expression
     profiles and plays a critical role in early Th1 cell fate specification
