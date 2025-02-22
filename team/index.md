@@ -10,15 +10,15 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
 
-{% include list.html data="members" component="portrait" filters="role: pi" style="medium"   %}
-{% include list.html data="members" component="portrait" filters="role: admin"   style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: srtech"   style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: jrtech"   style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: postdoc"   style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: clinicalfellow"  style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: mdstu"  style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: mdph"  style="medium"  %}
-{% include list.html data="members" component="portrait" filters="role: phd"  style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'pi'" style="medium"   %}
+{% include list.html data="members" component="portrait" filters="role == 'admin'"   style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'srtech'"   style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'jrtech'"   style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'postdoc'"   style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'clinicalfellow'"  style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'mdstu'"  style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'mdph'"  style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'phd'"  style="medium"  %}
 
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
@@ -26,7 +26,7 @@ nav:
 {% include section.html %}
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
-{% include list.html data="members" component="portrait" filters="role: alum" style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == alum" style="medium"  %}
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
@@ -51,6 +51,6 @@ nav:
 {% include portrait.html name="Rosie" style="small" image="images/pets/rosie.png" %}
 
 {% capture content %}
-{% include list.html data="pets" component="portrait" filters="role: pet" style="small" %}
+{% include list.html data="pets" component="portrait" filters="role == pet" style="small" %}
 {% endcapture %}
 {% include grid.html style="square" content=content   %}
