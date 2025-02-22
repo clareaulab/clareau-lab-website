@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Reproducibility | Lareau Lab</title>
+
+<link rel="icon" href="/preview/pr-2/images/icon.png">
+
+<meta name="title" content="Reproducibility">
+<meta name="description" content="The Lareau Laboratory for Data-driven Translational Genomics is in the csBio Program at Memorial Sloan Kettering Cancer Center, New York, NY.">
+
+<meta property="og:title" content="Reproducibility">
+<meta property="og:site_title" content="Lareau Lab">
+<meta property="og:description" content="The Lareau Laboratory for Data-driven Translational Genomics is in the csBio Program at Memorial Sloan Kettering Cancer Center, New York, NY.">
+<meta property="og:url" content="/preview/pr-2">
+<meta property="og:image" content="">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Reproducibility">
+<meta property="twitter:description" content="The Lareau Laboratory for Data-driven Translational Genomics is in the csBio Program at Memorial Sloan Kettering Cancer Center, New York, NY.">
+<meta property="twitter:url" content="/preview/pr-2">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Reproducibility",
+    "description": "The Lareau Laboratory for Data-driven Translational Genomics is in the csBio Program at Memorial Sloan Kettering Cancer Center, New York, NY.",
+    "headline": "Reproducibility",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-2/images/icon.png" }
+    },
+    "url": "/preview/pr-2"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-2/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Soleil:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Tisa:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-2/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-2/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-2/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-2/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-2/_scripts/search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/table-wrap.js"></script>
+
+  <script src="/preview/pr-2/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/preview/pr-2/images/scistories.jpg')" data-dark="false">
+  <a href="/preview/pr-2/" class="home">
+    
+      <span class="logo">
+        
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="-1 -1 302 63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3963af;
+      }
+
+      .cls-2 {
+        fill: #00aee6;
+      }
+
+      .cls-3 {
+        stroke: #00aee6;
+        fill: none;
+        stroke-miterlimit: 5;
+        stroke-width: 4px;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards;
+      }
+      .cls-4 {
+        stroke: #3963af;
+        stroke-width: 4px;
+        fill: none;
+        stroke-miterlimit: 5;
+        stroke-width: 4px;
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards;
+      }
+            @keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+  }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="58.6 45.8 58.6 13.5 66.9 13.5 66.9 38.6 76.4 38.6 76.4 45.8 58.6 45.8"></polygon>
+  <path class="cls-1" d="M104.5,48.8V46.2h-.1c-1,2.1-3.9,3.4-7.1,3.4-7.2,0-12.1-5.6-12.1-12.9s5.2-13,12.1-13a8.2,8.2,0,0,1,7.1,3.4h.1V24.6h7.3V48.8Zm0-12.1a6.1,6.1,0,0,0-6.1-6.2,6.1,6.1,0,0,0-6,6.2,6.1,6.1,0,0,0,6,6.2,6,6,0,0,0,6.1-6.2" transform="translate(-4.9 -3)"></path>
+  <path class="cls-1" d="M119,48.8V24.6h6.9v2.5h0c1.3-2.5,3.3-3.4,6.1-3.4V31c-4.3.1-5.7,1.7-5.7,4.4V48.8Z" transform="translate(-4.9 -3)"></path>
+  <path class="cls-1" d="M142.8,38.9a5.5,5.5,0,0,0,5.7,4.6,5.3,5.3,0,0,0,4.4-2.3h7.4c-2.3,5.3-6.7,8.4-11.8,8.4a13,13,0,0,1-.2-25.9c7.3,0,12.8,5.7,12.8,13.3a6.2,6.2,0,0,1-.2,1.9ZM153.9,34a5.5,5.5,0,0,0-5.6-4.2,5.3,5.3,0,0,0-5.4,4.2Z" transform="translate(-4.9 -3)"></path>
+  <path class="cls-1" d="M210.5,48.8V46.2h-.1c-1,2.3-2.9,3.4-6.2,3.4-5.1,0-9.4-3.1-9.4-10v-15h7.3V38.1c0,3.2,1.1,4.7,3.9,4.7s4.1-1.8,4.1-4.8V24.6h7.3V48.8Z" transform="translate(-4.9 -3)"></path>
+  <polygon class="cls-2" points="220.5 45.8 220.5 13.5 223.8 13.5 223.8 42.9 237.1 42.9 237.1 45.8 220.5 45.8"></polygon>
+  <path class="cls-2" d="M267,48.8V44.6h-.1a10.9,10.9,0,0,1-9.3,4.8,12.6,12.6,0,1,1,0-25.1,10.7,10.7,0,0,1,9.3,4.8h.1V24.9h3.1V48.8Zm.2-11.9a9.7,9.7,0,1,0-19.4,0,9.7,9.7,0,1,0,19.4,0" transform="translate(-4.9 -3)"></path>
+  <path class="cls-2" d="M278,48.8V16.5h3V29.1h.1a11.5,11.5,0,0,1,9.3-4.8,12.6,12.6,0,1,1,0,25.1,11.3,11.3,0,0,1-9.3-4.8H281v4.2ZM290.4,27a9.8,9.8,0,0,0-9.5,9.9,9.6,9.6,0,0,0,9.5,9.7,9.5,9.5,0,0,0,9.8-9.7,9.6,9.6,0,0,0-9.8-9.9" transform="translate(-4.9 -3)"></path>
+  <path class="cls-3" d="M38.5,45.2a4.8,4.8,0,0,1-4.8-4.7V9.7a4.8,4.8,0,1,0-9.5,0V31.9A4.7,4.7,0,0,0,29,36.7H48.4a4.3,4.3,0,1,1,0,8.5Z" transform="translate(-4.9 -3)"></path>
+  <path class="cls-4" d="M21.1,61.2a4.7,4.7,0,0,1-4.7-4.8V25.7a4.8,4.8,0,1,0-9.6,0V47.9a4.8,4.8,0,0,0,4.8,4.8H31.1a4.3,4.3,0,0,1,0,8.5Z" transform="translate(-4.9 -3)"></path>
+  <path class="cls-1" d="M183.4,49V46.4h-.1c-1.1,2.1-4,3.4-7.2,3.4-7.1,0-12.1-5.6-12.1-13s5.2-12.9,12.1-12.9c3,0,5.8,1.2,7.2,3.4h.1V24.7h7.2V49Zm0-12.2a6.1,6.1,0,0,0-6.2-6.1,6.2,6.2,0,0,0,.1,12.3,6.1,6.1,0,0,0,6.1-6.2" transform="translate(-4.9 -3)"></path>
+</svg>
+
+        
+      </span>
+    
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-2/team/" data-tooltip="Who we are">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/news/" data-tooltip="Updates from the lab">
+          News
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/research/" data-tooltip="Scientific focuses">
+          Research
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/publications/" data-tooltip="Lab papers">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/reproducibility/" data-tooltip="Code &amp; protocols for our work">
+          Reproducibility
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/outreach/" data-tooltip="Get involved or join!">
+          Outreach
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/contact/" data-tooltip="Get in touch!">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="reproducing-and-extending-our-works">
+<i class="icon fa-solid fa-clone"></i>Reproducing and extending our works</h2>
+
+<p>Our team is an advocate for open and reproducible science. This includes both 
+experimental details to generate data and line-by-line computational workflows
+to reproduce critical insights. As many of our own insights come from reanalyzing
+data from previously published work, 
+we take special care to ensure that resources from our works are available
+in easy-to-access formats.</p>
+
+<p><b>Check out our curated resources from our major efforts here:</b></p>
+
+<h2 id="lareau-lab--mskcc-2024-">Lareau Lab @ MSKCC (2024-)</h2>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Programmable Enrichment via RNA FlowFISH by sequencing b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/perffoverview.png" alt="b Programmable Enrichment via RNA FlowFISH by sequencing b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Programmable Enrichment via RNA FlowFISH by sequencing</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        PERFF-seq is new workflow for studying rare cell types via nucleic acid cytometry upstream of scRNA-seq. Our resources highlight code to reproduce downstream analyses of PERFF-seq data as well as step-by-step protocols for performing your own experiment.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/perffseq/">PERFF-seq</a></span>
+         · 
+        <span class="citation-date">13 Oct 2024</span>
+         · 
+        <span class="citation-id">Led by <a href="https://clareaulab.com/members/tsion-abay.html">Tsion</a> with <a href="https://satpathylab.com/">Satpathy Lab</a> and <a href="https://www.mskcc.org/research/ski/innovation-labs/single-cell-analytics-innovation-lab-sail">SAIL</a></span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/clareaulab/perffseq_reproducibility" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Code</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262355" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.protocols.io/view/1-perff-seq-cell-and-nuclei-preparation-14egn3k6ql5d/v1" data-tooltip="Protocols" data-style="bare" aria-label="Protocols">
+      <i class="icon fa-solid fa-mask"></i>
+      
+        <span>Protocol</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h2 id="before-mskcc--2019-2023">Before MSKCC  (2019-2023)</h2>
+
+<h3 id="2023">2023</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Viral reactivation uncovered in existing genomics datasets b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/hhv6sc.png" alt="b Viral reactivation uncovered in existing genomics datasets b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Viral reactivation uncovered in existing genomics datasets</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        These resources provide an overview for mining existing human sequencing datasets for the presence of viral nucleic acids. We used this framework to discover the reactivation of HHV-6 during T cell culture,  including in the manufacturing of therapeutic CAR T cells. Code and data for this work are outlined here.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/virus/index.html">Viruses in -seq data</a></span>
+         · 
+        <span class="citation-date">30 Nov 2023</span>
+         · 
+        <span class="citation-id">with the <a href="https://satpathylab.com/">Satpathy Lab</a></span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/hhv6-reactivation" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Downstream analyses</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE210063" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/serratus-reactivation-screen" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Human pan-viral screen</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Mitochondrial single-cell ATAC-seq b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/nprotocols.png" alt="b Mitochondrial single-cell ATAC-seq b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Mitochondrial single-cell ATAC-seq</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        The best established method for generating high-quality insights of clonal relatedness using single-cell genomics is the mtscATAC-seq protocol. Check out our code,  datasets,  and step-by-step protocols here.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/mitotracing/index.html#mitochondrial-single-cell-atac-seq">mtscATAC-seq</a></span>
+         · 
+        <span class="citation-date">15 Feb 2023</span>
+         · 
+        <span class="citation-id">with <a href="https://www.mdc-berlin.de/ludwig">Leif</a> via the <a href="https://www.bloodgenes.org/">Sankaran Lab</a></span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/mtscATACpaper_reproducibility" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Analysis code</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142745" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.nature.com/articles/s41596-022-00795-3" data-tooltip="Protocols" data-style="bare" aria-label="Protocols">
+      <i class="icon fa-solid fa-mask"></i>
+      
+        <span>Protocol</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/mgatk" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Genotyping pipeline</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2022">2022</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Mitochondrial Alteration Enrichment from Single-cell Transcriptomes to Establish Relatedness b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/maester.png" alt="b Mitochondrial Alteration Enrichment from Single-cell Transcriptomes to Establish Relatedness b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Mitochondrial Alteration Enrichment from Single-cell Transcriptomes to Establish Relatedness</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        A parisomonious method common for profiling 3’ scRNA-seq with mitochondrial transcriptome enrichment to increase coverage by more than 50-fold,  enabling clonal tracing.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/mitotracing/index.html#maester">MAESTER</a></span>
+         · 
+        <span class="citation-date">24 Feb 2022</span>
+         · 
+        <span class="citation-id">with <a href="https://tymillerlab.org/">Ty Miller Lab</a> and <a href="https://vangalenlab.bwh.harvard.edu/">Peter van Galen Lab</a></span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/maegatk" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Genotyping pipeline</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182685" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.nature.com/articles/s41587-022-01210-8" data-tooltip="Paper" data-style="bare" aria-label="Paper">
+      <i class="icon fa-solid fa-file"></i>
+      
+        <span>Manuscript</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/petervangalen/MAESTER-2021" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Downstream analyses</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2021">2021</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Combined proteomic and epigenomic profiling via M13 Bacteriophages b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/phageatac.png" alt="b Combined proteomic and epigenomic profiling via M13 Bacteriophages b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Combined proteomic and epigenomic profiling via M13 Bacteriophages</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        PHAGE-ATAC allows for a multi-omic extension of the scATAC-seq workflow by using M13 bacteriophages displaying nanobodies to quantify proteo-genomic measurements. Code,  data,  and plasmids to get started are available here.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/mitotracing/index.html#phage-atac">PHAGE-ATAC</a></span>
+         · 
+        <span class="citation-date">30 Oct 2021</span>
+         · 
+        <span class="citation-id">with Evenij Fiskin in the Regev Lab&lt;/a&gt;</span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157486" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/evgenijfiskin/phage-atac" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Downstream analyses</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.addgene.org/110101/" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Phage plasmid</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b ATAC with Selected Antigen Profiling via sequencing DOGMA-seq b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/asapclean.png" alt="b ATAC with Selected Antigen Profiling via sequencing DOGMA-seq b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>ATAC with Selected Antigen Profiling via sequencing + DOGMA-seq</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        ASAP-seq and DOGMA-seq extend commercial kits from 10x Genomics for multi-omic measurements of intracellular and surface proteins alongside accessible chromatin (and the transcriptome). These resources enable an end-to-end experimental workflows and computational analyses.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/mitotracing/index.html#asap-seq-and-dogma-seq">ASAP-seq/DOGMA-seq</a></span>
+         · 
+        <span class="citation-date">06 Jun 2021</span>
+         · 
+        <span class="citation-id">with Eleni Mimitou and Peter Smibert&lt;/a&gt;</span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://cite-seq.com/asapseq/" data-tooltip="Protocols" data-style="bare" aria-label="Protocols">
+      <i class="icon fa-solid fa-mask"></i>
+      
+        <span>Protocol</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156478" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/asap_reproducibility" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Downstream analyses</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/asap_to_kite" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Preprocessing tools</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2020">2020</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Uncovering barcode multiplets in 10x scATAC-seq data b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/barcodemultiplets.png" alt="b Uncovering barcode multiplets in 10x scATAC-seq data b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Uncovering barcode multiplets in 10x scATAC-seq data</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Barcode multiplets occur when either a bead contains multiple valid cell barcodes or when multiple beads becomes encapsulated inside a single droplet. We outline tools and results that can detect barcode multiplets in sequencing dataset and quantify their impact.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/multiplets/index.html#application-to-10x-genomics-scatac-data">Barcode multiplets</a></span>
+         · 
+        <span class="citation-date">13 Feb 2020</span>
+         · 
+        <span class="citation-id">with the <a href="https://buenrostrolab.com">Buenrostro Lab</a></span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/bap" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Processing pipeline</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143197" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/barcode-multiplets" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Downstream analyses</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2019">2019</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="b Droplet-based single-cell ATAC-seq b">
+        <img src="https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/barcodetn5.png" alt="b Droplet-based single-cell ATAC-seq b" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        <b>Droplet-based single-cell ATAC-seq</b>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        The dscATAC-seq method is a highly scalable droplet-based workflow for the Assay for Transposase Accessible Chromatin via sequencing developed by experimental and computational insights. This approach is now commercially available.
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher"><a href="https://clareaulab.com/protocols/multiplets/index.html#barcode-multiplets-used-to-develop-dscatac-seq">dscATAC-seq</a></span>
+         · 
+        <span class="citation-date">20 Aug 2019</span>
+         · 
+        <span class="citation-id">with Fabina and Jen via the <a href="https://buenrostrolab.com">Buenrostro Lab</a></span>
+      </div>
+
+      
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://teichlab.github.io/scg_lib_structs/methods_html/dscATAC.html" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Library structure</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.bio-rad.com/en-us/product/ddseq-single-cell-atac-seq-kit-omnition-analysis-software?ID=PEXSR1MC1ORV" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Commercialization</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/caleblareau/bap" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Processing pipeline</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123581" data-tooltip="GEO data" data-style="bare" aria-label="GEO data">
+      <i class="icon fa-solid fa-database"></i>
+      
+        <span>Datasets</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/buenrostrolab/dscATAC_analysis_code" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>Downstream analyses</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-2/images/scistories.jpg')" data-dark="false" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+  <div>
+    
+  </div>
+  
+  <div>
+  <b>Data-driven translational genomics</b><br>
+   Lareau Lab
+    | <a href="https://www.mskcc.org/research/ski/programs/computational-biology">csBio</a>
+    | MSKCC
+  </div>
+</footer>
+
+  </body>
+</html>
