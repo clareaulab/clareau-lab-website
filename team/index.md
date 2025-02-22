@@ -26,7 +26,7 @@ nav:
 {% include section.html %}
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
-{% include list.html data="members" component="portrait" filters="role == alum" style="medium"  %}
+{% include list.html data="members" component="portrait" filters="role == 'alum'" style="medium"  %}
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
