@@ -41,7 +41,7 @@ explain phenomenon in high-dimensional data or enable foundational new direction
 
 Check out our publications on each of the lab's major areas of focus:
 
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+{% include list.html component="card" data="projects" style="small" %}
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
