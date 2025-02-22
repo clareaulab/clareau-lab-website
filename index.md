@@ -1,81 +1,40 @@
 ---
+title: Home
+carousels:
+  - images: 
+    - image: /images/group/rickmorty2024.png
+    - image: /images/group/retreat2024.png
+    - image: /images/group/eclipse.jpg
+    - image: /images/group/bigpizza.png
+    - image: /images/group/holidayparty2023.jpg
+    - image: /images/group/duckies.jpg
+    - image: /images/group/playthatgoeswrong.png
+    - image: /images/group/clownin1.png
+
 ---
 
-# clareaulab's Website
+# Welcome! 
 
-An engaging 1-3 sentence description of your lab.
+Our lab is located on the 11th Floor of the Zuckerman Research Building at
+[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) in New York, NY. 
+
+## Navigation
+- Check out [recent updates from the lab](news)
+- Interested in [PERFF-seq? Click here!](perffseq)
+- See [who we are](team) and [what we're up to](research)
+- Want to support our work? Consider making a donation.
+	- [Lareau Lab Cycle for Survival team](https://www.cycleforsurvival.org/donate/team-search?team_search=lareau)
+
+{% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
 {% include section.html %}
+# {% include icon.html icon="fa-solid fa-champagne-glasses" %}Fun
 
-## Highlights
+{% include carousel.html height="40" unit="%" duration="10" number="1" %}
 
-{% capture text %}
 
-Meh
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
 
-{% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
 
-{% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}

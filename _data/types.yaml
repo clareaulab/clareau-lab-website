@@ -2,29 +2,53 @@
 
 # team member roles
 
-principal-investigator:
-  icon: fa-solid fa-microscope
+pi:
+  icon: 
   description: Principal Investigator
 
 postdoc:
-  icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+  icon: 
+  description: Postdoctoral Fellow
 
+mdstu:
+  icon: 
+  description: MD Student
+
+mdph:
+  icon: 
+  description: MD/PhD Student
+  
 phd:
-  icon: fa-solid fa-graduation-cap
+  icon: 
   description: PhD Student
 
+jrtech:
+  icon: 
+  description: Research Technician
+
+srtech:
+  icon: 
+  description: Sr. Research Technician
+
+admin:
+  icon: 
+  description: Administrative Assistant
+
+clinicalfellow:
+  icon: 
+  description: Clinical Fellow
+
 undergrad:
-  icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
+  icon: 
+  description: Undergraduate
 
-programmer:
-  icon: fa-solid fa-code
-  description: Programmer
+alum:
+  icon: 
+  description: Alumni
 
-mascot:
-  icon: fa-solid fa-dog
-  description: Mascot
+pet:
+  icon: 
+  description: 
 
 # general
 
@@ -32,6 +56,12 @@ link:
   icon: fa-solid fa-globe
   text: Link
   tooltip: Link
+
+papers:
+  icon: fa-solid fa-book
+  text: Publications
+  tooltip: Publications
+  link: https://clareaulab.com/publications/?search=$VALUE
 
 website:
   icon: fa-solid fa-globe
@@ -69,6 +99,11 @@ search:
   icon: fa-solid fa-magnifying-glass
   text: Search
   tooltip: Search
+  
+CV:
+  icon: fa-solid fa-file
+  text: CV
+  tooltip: CV
 
 # social media
 
@@ -89,6 +124,16 @@ github:
   text: GitHub
   tooltip: GitHub
   link: https://github.com/$VALUE
+
+fire:
+  icon: fa-solid fa-fire
+  text: Preprints
+  tooltip: Preprints
+
+featured:
+  icon: fa-solid fa-star
+  text: Featured article
+  tooltip: Featured article
 
 twitter:
   icon: fa-brands fa-twitter
@@ -138,7 +183,7 @@ help:
 
 info:
   icon: fa-solid fa-circle-info
-  color: "#0ea5e9"
+  color: "#104e8b"
 
 success:
   icon: fa-solid fa-circle-check
@@ -155,7 +200,7 @@ error:
 # publications
 
 paper:
-  icon: fa-solid fa-scroll
+  icon: fa-solid fa-file
   text: Paper
   tooltip: Paper
 
@@ -175,7 +220,7 @@ journal:
   tooltip: Journal
 
 preprint:
-  icon: fa-regular fa-eye
+  icon: fa-solid fa-eyes
   text: Preprint
   tooltip: Preprint
 
@@ -200,6 +245,16 @@ source:
   icon: fa-solid fa-code
   text: Source
   tooltip: Source code
+
+geodata:
+  icon: fa-solid fa-database
+  text: GEO
+  tooltip: GEO data
+
+protocolsio:
+  icon: fa-solid fa-mask
+  text: Protocols 
+  tooltip: Protocols 
 
 server:
   icon: fa-solid fa-server

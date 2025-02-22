@@ -1,19 +1,14 @@
 # site properties and page defaults
-title: clareaulab
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
-proofer: false
+title: Lareau Lab
+description: The Lareau Laboratory for Data-driven Translational Genomics is in the csBio Program at Memorial Sloan Kettering Cancer Center, New York, NY.
+logo-text: false
+header: images/scistories.jpg
+footer: images/scistories.jpg
+header-dark: false
+footer-dark: false
 
 # site social media and other links
 links:
-  email: contact@clareaulab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: clareaulab
-  twitter: clareaulab
-  youtube: clareaulab
 
 ### jekyll settings
 

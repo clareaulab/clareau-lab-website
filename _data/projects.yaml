@@ -1,47 +1,42 @@
-- title: Cool Dataset
+- title: Featured test
   subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/gifs/hydrop.gif
+  link: research/mitochondria
+  description: Just a holding place for now
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+- title: Cancer immunotherapies
+  subtitle: 
+  image: images/dalle-new/cancerio.jpg
+  link: https://clareaulab.com/publications/?search=%22CAR+T%22+%22chimeric%22+%22cancer+therapy%22+%22antigen+map%22
+  description: 
+  
+- title: Computational biology
+  subtitle:
+  image: images/dalle-new/compbio.jpg
+  link: https://clareaulab.com/publications/?search=%22bioinformatics%22+%22pipeline%22+%22method%22+%22inference%22+%22massive%22+%22disorders%22
+  description: 
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: Computational virology
+  subtitle:
+  image: images/dalle-new/virus.jpg
+  link: https://clareaulab.com/publications/?search=%22latent%22+%22sars%22+%22inheritance%22
+  description: 
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Mitochondrial genetics
+  subtitle:
+  image: images/dalle-new/mito.jpg
+  link: https://clareaulab.com/publications/?search=mitochondria
+  description: 
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Single-cell genomics
+  subtitle:
+  image: images/dalle-new/dna.jpg
+  link: https://clareaulab.com/publications/?search=%22single-cell%22+%22single+cell%22+%22scRNA%22
+  description: 
+
+- title: Somatic evolution
+  subtitle:
+  image: images/dalle-new/somaticperson.jpg
+  link: https://clareaulab.com/publications/?search=%22affinity%22+%22purifying%22+%22longitudinal%22+%22clonal%22
+  description: 
