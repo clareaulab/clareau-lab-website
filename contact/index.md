@@ -7,7 +7,7 @@ nav:
 
 {% include section.html %}
 
-# {% include icon.html icon="fa-solid fa-magnifying-glass" %}Contact
+## {% include icon.html icon="fa-solid fa-magnifying-glass" %}Contact
 
 ## Come find us at these upcoming events:
 

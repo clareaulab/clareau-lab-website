@@ -1,5 +1,5 @@
 ---
-title: Critically acclaimed Halloween costume! &nbsp;&nbsp;&nbsp;
+title: Crit
 ---
 
 At the Annual MSK IGO open house, [our crew dressed up as Rick and Morty's (and portals).](https://x.com/CalebLareau/status/1852019342650617930)

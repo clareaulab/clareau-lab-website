@@ -2,7 +2,7 @@
 title: Technologies for mitochondrial genomics and lineage tracing
 ---
 
-# {% include icon.html icon="fa-solid fa-dna" %}Methods for mtDNA tracing
+## {% include icon.html icon="fa-solid fa-dna" %}Methods for mtDNA tracing
 
 Our lab has been active in the development of new technologies to enable
 lineage tracing in humans via mitochondrial DNA mutations. Most of these works have been 
@@ -137,7 +137,7 @@ states and dynamics along a disease trajectory.
 {% include section.html %}
 
 
-# Purifying selection in congenital mitochondrial disease
+## Purifying selection in congenital mitochondrial disease
 
 While most single-cell multi-omic efforts so far have used mtDNA genotyping for purposes of clonal tracing,
 the obvious utility of these technologies for studies of mitochondrial genetics has only
@@ -167,7 +167,7 @@ technologies has worked well in our hands!
 
 {% include section.html %}
 
-# Software that enables mitochondrial mutaiton analyses
+## Software that enables mitochondrial mutaiton analyses
 
 As part of these tools, our lab has been the primary developers of genotyping software for processing sequencing reads 
 from the protocols and identifying high-confidence single-cell heteroplasmy. 

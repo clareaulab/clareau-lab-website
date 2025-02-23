@@ -2,7 +2,7 @@
 title: Identifying multiple beads per droplet in ATAC-seq data
 ---
 
-# {% include icon.html icon="fa-solid fa-droplet" %}What are barcode multiplets?
+## {% include icon.html icon="fa-solid fa-droplet" %}What are barcode multiplets?
 
 A common / foundational assumption in single-cell genomics analyses is that a single oligonucleotide barcode
 represents the nucleic acid of an individual cell. However, there are scenarios where an individual single cell 

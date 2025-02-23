@@ -7,7 +7,7 @@ nav:
 
 
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+## {% include icon.html icon="fa-solid fa-users" %}Team
 
 
 {% include list.html data="members" component="portrait" filters="role == 'pi'" style="medium"   %}
@@ -24,14 +24,14 @@ nav:
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
+## {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
 {% include list.html data="members" component="portrait" filters="role == 'alum'" style="medium"  %}
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-paw" %}Technical support
+## {% include icon.html icon="fa-solid fa-paw" %}Technical support
 
 
 {% include portrait.html name="Alpha" style="small" image="images/pets/alpha.png" %}

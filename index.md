@@ -13,7 +13,7 @@ carousels:
 
 ---
 
-# Welcome! 
+## Welcome! 
 
 Our lab is located on the 11th Floor of the Zuckerman Research Building at
 [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/) in New York, NY. 
@@ -28,7 +28,7 @@ Our lab is located on the 11th Floor of the Zuckerman Research Building at
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-champagne-glasses" %}Fun
+## {% include icon.html icon="fa-solid fa-champagne-glasses" %}Fun
 
 {% include carousel.html height="40" unit="%" duration="10" number="1" %}
 

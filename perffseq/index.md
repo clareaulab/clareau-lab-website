@@ -2,7 +2,7 @@
 title: PERFF-seq
 ---
 
-# {% include icon.html icon="fa-solid fa-fish-fins" %}PERFF-seq
+## {% include icon.html icon="fa-solid fa-fish-fins" %}PERFF-seq
 
 
 <b>Transcript-specific enrichment enables profiling of rare cell states via single-cell RNA sequencing</b>
