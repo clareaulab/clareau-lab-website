@@ -8,7 +8,7 @@
   - PERFF-seq is new workflow for studying rare cell types via nucleic acid cytometry upstream of scRNA-seq. Our resources highlight code to reproduce downstream analyses of PERFF-seq data as well as step-by-step protocols for performing your own experiment. 
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/perffoverview.png
   publisher: <a href="https://clareaulab.com/perffseq/">PERFF-seq</a>
-  date: '2024-10-13'
+  date: '2024-12-31'
   buttons:
     - type: github
       text: Code

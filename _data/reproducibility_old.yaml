@@ -27,7 +27,7 @@
   authors: 
   - The best established method for generating high-quality insights of clonal relatedness using single-cell genomics is the mtscATAC-seq protocol. Check out our code, datasets, and step-by-step protocols here. 
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/nprotocols.png
-  publisher: <a href="https://clareaulab.com/protocols/mitotracing/index.html#mitochondrial-single-cell-atac-seq">mtscATAC-seq</a>
+  publisher: <a href="https://clareaulab.com/protocols/mitotracing/index.html#mitochondrial-single-cell-atac-seq"> mtscATAC-seq</a>
   date: '2023-02-15'
   buttons:
     - type: github
@@ -132,7 +132,7 @@
   authors: 
   - The dscATAC-seq method is a highly scalable droplet-based workflow for the Assay for Transposase Accessible Chromatin via sequencing developed by experimental and computational insights. This approach is now commercially available. 
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/barcodetn5.png
-  publisher: <a href="https://clareaulab.com/protocols/multiplets/index.html#barcode-multiplets-used-to-develop-dscatac-seq">dscATAC-seq</a>
+  publisher: <a href="https://clareaulab.com/protocols/multiplets/index.html#barcode-multiplets-used-to-develop-dscatac-seq"> dscATAC-seq</a>
   date: '2019-08-20'
   buttons:
     - type: website

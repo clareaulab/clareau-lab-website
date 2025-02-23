@@ -14,11 +14,6 @@ nav:
 - <b>March 25-27, 2025</b> - [12th International Conference on HHV-6 & 7](https://conference.hhv-6foundation.org/); Himeji City, Japan
 - <b>June 1-5, 2025</b> - [FASEB Mechanisms of Mitochondrial DNA Mutation and Repair](https://events.faseb.org/event/mitochondrialdna/summary); Nashville, TN
 
-## Recent talks and recordings
-
-- [Caleb's interview on the Immunology Podcast](https://www.immunologypodcast.com/ep-77-computational-and-translational-immunology-featuring-dr-caleb-lareau)
-- [Human Cell Atlas General Meeting 2023](https://events.humancellatlas.org/2023gm/agenda/session/1147421)- _Caleb talks at the 1:47:00 mark_
-
 ## Lab address
 
 {% capture col1 %}

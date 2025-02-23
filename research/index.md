@@ -7,31 +7,49 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-flask" %} Research Philosophy
 
-We are a team of interdisciplinary scientists that specializes in <b>data-driven translational genomics</b>.
-Our lab is a hybrid "wet" (experimental) and "dry" (bioinformatics) team. Our work tends to be interdisciplinary, 
-but each individual project or researcher may focus more on experimental or computational innovation. Our lab does not rely on a model system or a specific experimental setting and instead focuses on data-driven
-exploration, including the development of new technologies. Though not required, projects tend to fit within a part or all of a general framework with these three tenets:
+We are a team of interdisciplinary scientists that specializes in <b>computational and systems immunology</b>.
+Our lab is a hybrid "wet" (experimental) and "dry" (bioinformatics) team. We broadly focus on three themes:
 
-<b>1. Translational motivation</b>. As our approach can be applied to any organism profiled
-via DNA sequencing, we focus on questions that may directly impact human health,
-including stem cell reconstitution, treatment side-effects, or limited therapeutic efficacy 
-of cancer immunotherapies.
 
-<b>2. Massive-scale data analyses</b>. The most appealing part of DNA- and RNA-sequencing
-technologies, in our view, is that they sample a breadth and depth of nucleic acids
-from cells or tissues. Rather than quantifying only some genes or proteins,
-modern genomics technologies enable hypothesis generation and testing simultaneously
-if handled with appropriate statistical rigor and data science convention.
-In retrospective analyses, multiple datasets can be combined to structure questions that help mitigate observational biases.
+<b>1. Computational systems virology</b>. Current estimates of the human virome indicate
+that for every one human cell, there are ~10 viral particles (or 380 trillion total) within the human body.
+Despite the ubiquity of these viruses, our knowledge about the commensal virome, tolerogenic mechanisms,
+and response to pathogenic infection is in its infancy. Rather than conventional virology approaches,
+we scour the totality of existing DNA sequencing libraries to 
+uncover new biological associa?ons hidden in large-scale data. 
+In our previous work, we found unexpected signals in discarded data, including somatic mitochondrial DNA mutations 
+that could be [utilized for lineage tracing](https://clareaulab.com/protocols/mitotracing/index.html) 
+and reads from herpesviruses that could be used to uncover a potenial mechanism for a toxicity during 
+[adoptive cell therapy](https://www.statnews.com/2023/11/08/car-t-cancer-therapy-complications-herpes-encephalitis/).
 
-<b>3. Genomics technology development</b>. Data-driven hypotheses can crystalize
+For our future efforts, our lab was recently awarded a U01 grant as part of the
+[Human Virome Program](https://commonfund.nih.gov/humanvirome), 
+a new NIH-funded initiative to map viral infection, pathogenesis, and clinical correlates using high-dimensional sequencing data.
+
+
+<b>2. Genomics technology development</b>. Data-driven hypotheses can crystalize
 from reanalyses but often lack definitive evidence. Our prior work has taught us that new
 technologies are often required to test retrospective findings rigorously or 
 scale up the number of measurements for proper inference. Thus, a major focus of the
 experimental component of our group is to establish new technologies that, once developed, 
 explain phenomenon in high-dimensional data or enable foundational new directions. 
 
+Recently, and as the first paper from our lab, we described the 
+[Programmable Enrichment via RNA FlowFISH by sequencing (PERFF-seq)](https://clareaulab.com/perffseq/) 
+that enables studying rare populations using arbitrary nucleic acid 
+cytometry to isolate and profile rare cell states.
+We continue innovative single-cell technology development in close collaboration with 
+the [Single-cell Analytics Innovation Lab (SAIL)](https://www.mskcc.org/research/ski/innovation-labs/single-cell-analytics-innovation-lab-sail), 
+our next-door neighbor.
 
+<b>3. Computational protein design</b>. 
+A new area that our lab is actively exploring is the computational design of proteins. 
+Based on rapid advances in deep learning architectures like Alphafold and corresponding innovations in 
+generative artificial intelligence (e.g., hallucination, diffusion), 
+we anticipate that programmable protein design will be as commonplace as DNA primer design within the next 10-15 years.
+Accordingly, our lab has initiated high-risk, high-reward projects utilizing deep learning to 
+create new proteins that may enable new therapies. These include developing protein binders for known and novel cancer
+antigens that may be utilized in clinical practice at MSKCC.
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
@@ -115,6 +133,14 @@ The lab's overall research program is currently supported by the generous contri
 {% endcapture %}
 
 
-{% include cols.html col1=c4s col2=kravis col3=hvp %}
+{% capture michelson %}
+{%
+  include figure.html
+  image="images/funding/michelson.png"
+%}
+{% endcapture %}
+
+
+{% include cols.html col1=c4s col2=michelson col3=hvp %}
 {% include cols.html col1=commonfund col2=ncicc col3=nhgri %}
 

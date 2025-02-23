@@ -5,7 +5,7 @@ nav:
   tooltip: Lab papers
 ---
 
-# {% include icon.html icon="fa-solid fa-book" %}Publications
+## {% include icon.html icon="fa-solid fa-book" %}Publications
 
 {% include search-box.html %}
 {% include search-info.html %}
