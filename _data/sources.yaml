@@ -303,6 +303,15 @@
 ####
 # Preprints
 
+# Kenny
+- id: doi:10.1101/2025.02.12.637857
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
+  buttons:
+    - type: fire
+      text: bioRxiv
+      link: https://clareaulab.com/publications/?search=preprint
+
+
 # Bdaniel
 - id: doi:10.1101/2024.02.29.582872
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/bdanielmac.png
@@ -339,10 +348,16 @@
 
 
 # everything else
-- id: 10.3389/fimmu.2024.1492782
+- id: doi:10.1016/j.cell.2025.02.009
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/sfeirmtdel.png
+
+- id: doi:10.1158/2643-3230.BCD-24-0163
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/nkcartsurvive.png
+
+- id: doi:10.3389/fimmu.2024.1492782
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mattcbreview.png
 
-- id: 10.1146/annurev-cancerbio-080124-102241
+- id: dou:10.1146/annurev-cancerbio-080124-102241
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/annualmitoreviewreznik.png
 
 - id: doi:10.1016/j.immuni.2024.09.015
