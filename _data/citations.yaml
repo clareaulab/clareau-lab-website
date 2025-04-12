@@ -654,6 +654,37 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1101/2025.02.12.637857
+  title: A pathogenic subpopulation of human glioma associated macrophages linked
+    to glioma progression
+  authors:
+  - Kenny Kwok Hei Yu
+  - Zaki Abou-Mrad
+  - "Kristof T\xF6rkenczy"
+  - Isabell Schulze
+  - Jennifer Gantchev
+  - Gerard Baquer
+  - Kelsey Hopland
+  - Evan D. Bander
+  - Umberto Tosi
+  - Cameron Brennan
+  - Nelson S. Moss
+  - Pierre-Jacques Hamard
+  - Richard Koche
+  - Caleb Lareau
+  - Nathalie Y.R. Agar
+  - Taha Merghoub
+  - Viviane Tabar
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-02-17'
+  link: https://doi.org/g9d6ws
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
+  buttons:
+  - type: fire
+    text: bioRxiv
+    link: https://clareaulab.com/publications/?search=preprint
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2024.02.29.582872
   title: Regulation of immune signal integration and memory by inflammation-induced
     chromosome conformation
@@ -778,7 +809,70 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
-- id: 10.3389/fimmu.2024.1492782
+- id: doi:10.1016/j.cell.2025.02.009
+  title: Engineering mtDNA deletions by reconstituting end joining in human mitochondria
+  authors:
+  - Yi Fu
+  - Max Land
+  - Tamar Kavlashvili
+  - Ruobing Cui
+  - Minsoo Kim
+  - Emily DeBitetto
+  - Toby Lieber
+  - Keun Woo Ryu
+  - Elim Choi
+  - Ignas Masilionis
+  - Rahul Saha
+  - Meril Takizawa
+  - Daphne Baker
+  - Marco Tigano
+  - Caleb A. Lareau
+  - Ed Reznik
+  - Roshan Sharma
+  - Ronan Chaligne
+  - Craig B. Thompson
+  - "Dana Pe\u2019er"
+  - Agnel Sfeir
+  publisher: Cell
+  date: '2025-03-01'
+  link: https://doi.org/g87vp5
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/sfeirmtdel.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/2643-3230.BCD-24-0163
+  title: Dynamics of Immune Reconstitution and Impact on Outcomes across CAR-T Cell
+    Products in Large B-cell Lymphoma
+  authors:
+  - Danny Luan
+  - Susan DeWolf
+  - Teng Fei
+  - Sandeep Raj
+  - Gunjan L. Shah
+  - Caleb A. Lareau
+  - Mohammad Alhomoud
+  - Gilles Salles
+  - Alfredo Rivas-Delgado
+  - Kai Rejeski
+  - Jae H. Park
+  - Efrat Luttwak
+  - Alejandro Luna de Abia
+  - Magdalena Corona
+  - Evangelos Ntrivalas
+  - Giulio Cassanello
+  - Marina Gomez-Llobell
+  - Allison Parascondola
+  - Michael Scordo
+  - Katharine C. Hsu
+  - M. Lia Palomba
+  - Miguel-Angel Perales
+  - Roni Shouval
+  publisher: Blood Cancer Discovery
+  date: '2024-12-12'
+  link: https://doi.org/g9d6wt
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/nkcartsurvive.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fimmu.2024.1492782
   title: Identifying optimal tumor-associated antigen combinations with single-cell
     genomics to enable multi-targeting therapies
   authors:
@@ -792,7 +886,7 @@
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mattcbreview.png
   plugin: sources.py
   file: sources.yaml
-- id: 10.1146/annurev-cancerbio-080124-102241
+- id: doi:10.1146/annurev-cancerbio-080124-102241
   title: Single-Cell Technologies for Studying the Evolution and Function of Mitochondrial
     DNA Heteroplasmy in Cancer
   authors:
@@ -802,7 +896,7 @@
   - Caleb Lareau
   - Ed Reznik
   publisher: Annual Review of Cancer Biology
-  date: '2024-11-12'
+  date: '2025-04-11'
   link: https://doi.org/g8q672
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/annualmitoreviewreznik.png
   plugin: sources.py
