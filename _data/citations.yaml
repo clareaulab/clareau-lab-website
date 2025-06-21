@@ -654,6 +654,31 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.21203/rs.3.rs-6539733/v1
+  title: Single-cell multi-omics resolved analysis of mitochondrial genome-wide mutational
+    burden, constraint, and mosaicism
+  authors:
+  - Leif Ludwig
+  - Yu-Hsin Hsieh
+  - Pauline Kautz
+  - Lena Nitsch
+  - Ambre Giguelay
+  - Janet Liebold
+  - "G\xE1bor Zsurka"
+  - Genevieve Trombly
+  - Markus Schuelke
+  - Wolfram Kunz
+  - Caleb Lareau
+  publisher: Springer Science and Business Media LLC
+  date: '2025-05-21'
+  link: https://doi.org/g9q2hx
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/joschHEK.png
+  buttons:
+  - type: fire
+    text: Preprint
+    link: https://clareaulab.com/publications/?search=preprint
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2025.02.12.637857
   title: A pathogenic subpopulation of human glioma associated macrophages linked
     to glioma progression
@@ -807,6 +832,51 @@
   - type: fire
     text: bioRxiv
     link: https://clareaulab.com/publications/?search=preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41592-025-02657-8
+  title: Methods for multiplexing single-cell multi-omics
+  authors:
+  - Laura C. Kida
+  - Caleb A. Lareau
+  publisher: Nature Methods
+  date: '2025-05-26'
+  link: https://doi.org/g9q2h2
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/lauramulti.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41586-025-09041-8
+  title: Clonal tracing with somatic epimutations reveals dynamics of blood ageing
+  authors:
+  - Michael Scherer
+  - Indranil Singh
+  - Martina Maria Braun
+  - Chelsea Szu-Tu
+  - Pedro Sanchez Sanchez
+  - Dominik Lindenhofer
+  - Niels Asger Jakobsen
+  - "Verena K\xF6rber"
+  - Michael Kardorff
+  - Lena Nitsch
+  - Pauline Kautz
+  - "Julia R\xFChle"
+  - Agostina Bianchi
+  - Luca Cozzuto
+  - "Robert Fr\xF6mel"
+  - Sergi Beneyto-Calabuig
+  - Caleb Lareau
+  - Ansuman T. Satpathy
+  - "Ren\xE9e Beekman"
+  - Lars M. Steinmetz
+  - Simon Raffel
+  - Leif S. Ludwig
+  - Paresh Vyas
+  - Alejo Rodriguez-Fraticelli
+  - Lars Velten
+  publisher: Nature
+  date: '2025-05-21'
+  link: https://doi.org/g9kvvt
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/cpgclone.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.cell.2025.02.009
