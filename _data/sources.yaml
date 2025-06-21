@@ -356,8 +356,11 @@
 
 
 # everything else
-- id: doi:10.1016/10.1038/s41592-025-02657-8
+- id: doi:10.1038/s41592-025-02657-8
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/lauramulti.png
+
+- id: doi:10.1038/s41586-025-09041-8
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/cpgclone.png
 
 - id: doi:10.1016/j.cell.2025.02.009
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/sfeirmtdel.png
