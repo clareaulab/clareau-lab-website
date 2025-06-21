@@ -303,6 +303,14 @@
 ####
 # Preprints
 
+# Leif / Josch
+- id: doi:10.21203/rs.3.rs-6539733/v1
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/joschHEK.png
+  buttons:
+    - type: fire
+      text: Preprint
+      link: https://clareaulab.com/publications/?search=preprint
+
 # Kenny
 - id: doi:10.1101/2025.02.12.637857
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
@@ -348,6 +356,9 @@
 
 
 # everything else
+- id: doi:10.1016/10.1038/s41592-025-02657-8
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/lauramulti.png
+
 - id: doi:10.1016/j.cell.2025.02.009
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/sfeirmtdel.png
 
