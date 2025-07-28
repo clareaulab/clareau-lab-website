@@ -279,29 +279,60 @@
       link: https://clareaulab.com/publications/?search=featured
       
       
-############################
-# Current biorxiv
-
 #M7076
-- id: doi:10.1101/2023.04.23.537997
+- id: doi:10.1073/pnas.2505704122
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/m7076.png
   buttons:
     - type: paper
       text: PDF
-      link: https://www.biorxiv.org/content/10.1101/2023.04.23.537997v1.full.pdf
+      link: https://clareaulab.github.io/pdfs/LareauMaschmeyer-PNAS-2025.pdf
     - type: github
       text: Code
       link: caleblareau/m7076
     - type: twitter
       text: Tweetorial
       link: CalebLareau/status/1650390670904016897
-    - type: fire
-      text: bioRxiv
-      link: https://clareaulab.com/publications/?search=preprint
+    - type: featured
+      text: Featured
+      link: https://clareaulab.com/publications/?search=featured
      
 
 ####
 # Preprints
+
+#Vincent
+- id: doi:10.1101/2025.07.16.665245
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/vincentmyeloid.png
+  buttons:
+    - type: paper
+      text: PDF
+      link: https://www.biorxiv.org/content/10.1101/2025.07.16.665245v1.full.pdf
+    - type: fire
+      text: Preprint
+      link: https://clareaulab.com/publications/?search=preprint
+
+     
+#EBV
+- id: doi:10.1101/2025.07.18.665549
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
+  buttons:
+    - type: paper
+      text: PDF
+      link:https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
+    - type: github
+      text: Code
+      link: clareaulab/ebv_biobank_gwas
+    - type: website
+      text: Bluesky
+      link: https://bsky.app/profile/caleblareau.bsky.social/post/3lulitd76es2l
+    - type: featured
+      text: Featured
+      link: https://clareaulab.com/publications/?search=featured
+    - type: fire
+      text: Preprint
+      link: https://clareaulab.com/publications/?search=preprint
+     
+
 
 # Leif / Josch
 - id: doi:10.21203/rs.3.rs-6539733/v1
@@ -356,6 +387,9 @@
 
 
 # everything else
+- id: doi:10.1038/s43018-025-01009-x
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ckfasl.png
+
 - id: doi:10.1038/s41592-025-02657-8
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/lauramulti.png
 

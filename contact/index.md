@@ -11,7 +11,6 @@ nav:
 
 ## Come find us at these upcoming events:
 
-- <b>June 1-5, 2025</b> - [FASEB Mechanisms of Mitochondrial DNA Mutation and Repair](https://events.faseb.org/event/mitochondrialdna/summary); Nashville, TN
 - <b>December 10-12, 2025</b> - [53rd Annual Meeting of the Japanese Society for Immunology](https://www2.aeplan.co.jp/jsi2025/en/); Himeji, Japan
 - <b>March 1-4, 2026</b> - [3rd Probing Human Disease using Single-Cell Technologies Conference](https://www.fusion-conferences.com/conference/194); Cancun, Mexico
 
