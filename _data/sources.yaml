@@ -318,7 +318,7 @@
   buttons:
     - type: paper
       text: PDF
-      link:https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
+      link: https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
     - type: github
       text: Code
       link: clareaulab/ebv_biobank_gwas
