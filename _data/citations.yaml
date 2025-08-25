@@ -646,7 +646,10 @@
     link: https://clareaulab.github.io/pdfs/LareauMaschmeyer-PNAS-2025.pdf
   - type: github
     text: Code
-    link: caleblareau/m7076
+    link: caleblareau/7076
+  - type: pod
+    text: Podcast
+    link: https://basebybase.castos.com/episodes/cell-type-specific-purifying-selection-of-synonymous-mtdna
   - type: twitter
     text: Tweetorial
     link: CalebLareau/status/1650390670904016897
