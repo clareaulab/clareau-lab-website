@@ -105,6 +105,11 @@ CV:
   text: CV
   tooltip: CV
 
+pod:
+  icon: fa-solid fa-headphones
+  text: Podcast
+  tooltip: Podcast
+
 # social media
 
 orcid:
