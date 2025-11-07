@@ -17,4 +17,4 @@ time, Sherry reads (realistic fiction 📚), writes (doodles in her diary ✍�
 TV/movies (always open to more recommendations! 🎬), and enjoys the ease of getting
 around NYC to explore everything the city has to offer (Broadway, NYPL, and
 discovering lovely new hangouts with friends 🍜). Sherry is currently co-advised 
-by the Lareau Lab and the Victoria Lab at Rockefeller University.
+by the Lareau Lab and the Victora Lab at Rockefeller University.
