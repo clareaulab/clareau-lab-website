@@ -13,6 +13,8 @@ nav:
 
 - <b>December 10-12, 2025</b> - [53rd Annual Meeting of the Japanese Society for Immunology](https://www2.aeplan.co.jp/jsi2025/en/); Himeji, Japan
 - <b>March 1-4, 2026</b> - [3rd Probing Human Disease using Single-Cell Technologies Conference](https://www.fusion-conferences.com/conference/194); Cancun, Mexico
+- <b>June 4–8, 2026</b> - [2026 ASM Microbe](https://asm.org/events/asm-microbe/home); Washington, DC
+- <b>October 20-24, 2026</b> - [American Society of Human Genetics Meeting](https://www.ashg.org/meetings/); Montreal, Canada
 
 ## Lab address
 

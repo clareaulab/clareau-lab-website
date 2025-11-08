@@ -1,7 +1,9 @@
 ---
 name: Austin Varela
 image: images/people/austin-varela.png
-role: phd
+description: PhD Student
+role: coment
+group: coment
 links:
 
 ---
@@ -12,4 +14,5 @@ did research on protein cooperation across mammalian evolution. Austin also rece
 Computational Biology from Weill Cornell, where he studied cellular communication in the tumor
 microenvironment. Currently, Austin is interested in computational methods development with a
 focus on applications for understanding cancer heterogeneity. In his free time, Austin enjoys
-discovering new restaurants 🍴 and traveling  &nbsp; :airplane:  &nbsp; to explore cities.
+discovering new restaurants 🍴 and traveling  &nbsp; :airplane:  &nbsp; to explore cities. He
+is co-supervised with the [Laughney lab](https://laughneylab.com/) at Weill Cornell Medical School.

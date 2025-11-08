@@ -1,7 +1,9 @@
 ---
 name: Sherry Nyeo
 image: images/people/sherry-nyeo.png
-role: phd
+description: Graduate Student
+role: coment
+group: coment
 links:
   linkedin: sherry-shu-yuh-nyeo
 ---
@@ -17,4 +19,4 @@ time, Sherry reads (realistic fiction 📚), writes (doodles in her diary ✍�
 TV/movies (always open to more recommendations! 🎬), and enjoys the ease of getting
 around NYC to explore everything the city has to offer (Broadway, NYPL, and
 discovering lovely new hangouts with friends 🍜). Sherry is currently co-advised 
-by the Lareau Lab and the Victora Lab at Rockefeller University.
+by the Lareau Lab and the [Victora Lab at Rockefeller University](https://www.germinal.center/).

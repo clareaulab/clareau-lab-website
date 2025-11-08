@@ -3,7 +3,7 @@ name: Erica Sun
 image: images/people/erica-sun.png
 description: Clinical Fellow
 role: coment
-group: alum
+group: coment
 ---
 
 Erica Sun is a Hematology-Oncology Clinical Fellow at Memorial Sloan Kettering Cancer Center.

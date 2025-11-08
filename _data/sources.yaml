@@ -334,8 +334,14 @@
     - type: fire
       text: Preprint
       link: https://clareaulab.com/publications/?search=preprint
-     
 
+# Logan
+- id: doi:10.1101/2024.07.30.605881
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/logansra.png
+  buttons:
+    - type: fire
+      text: Preprint
+      link: https://clareaulab.com/publications/?search=preprint
 
 # Leif / Josch
 - id: doi:10.21203/rs.3.rs-6539733/v1
