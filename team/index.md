@@ -23,6 +23,13 @@ nav:
 
 {% include section.html background="images/scistories-clear-cut.png" dark=false %}
 
+
+{% include section.html %}
+## {% include icon.html icon="fa-solid fa-users" %}Co-mentored
+{% include list.html data="members" component="portrait" filters="role == 'coment'"  style="medium"  %}
+{% include section.html background="images/scistories-clear-cut.png" dark=false %}
+
+
 {% include section.html %}
 ## {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
