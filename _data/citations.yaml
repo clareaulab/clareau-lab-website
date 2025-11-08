@@ -916,6 +916,90 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s41588-025-02374-0
+  title: Functionally dominant hotspot mutations of mitochondrial ribosomal RNA genes
+    in cancer
+  authors:
+  - Sonia Boscenco
+  - Jacqueline Tait-Mulder
+  - Minsoo Kim
+  - Cerise Tang
+  - Tricia Park
+  - Flora McNulty
+  - Sergio Lilla
+  - Sara Zanivan
+  - Alejandro Huerta-Uribe
+  - Benan Nalbant
+  - Mark Zucker
+  - David Sumpton
+  - Geoffray Monteuuis
+  - Christopher B. Jackson
+  - Wei Wei
+  - Patrick F. Chinnery
+  - Ronan Chaligne
+  - Caleb A. Lareau
+  - Ed Reznik
+  - Payam A. Gammage
+  publisher: Nature Genetics
+  date: '2025-11-03'
+  link: https://doi.org/g99ksb
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mitoribosonia.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41586-025-09815-0
+  title: Independent mechanisms of inflammation and myeloid bias in VEXAS syndrome
+  authors:
+  - Varun K. Narendra
+  - Tandrila Das
+  - Linsey J. Wierciszewski
+  - Rebecca J. Londoner
+  - Joshua K. Morrison
+  - Pia Martindale
+  - Tessa Devine
+  - Kevin Chen
+  - Michael Trombetta
+  - Yuzuka Kanno
+  - Alejandro E. Casiano
+  - Elisa de Stanchina
+  - Caleb A. Lareau
+  - Scott W. Lowe
+  - Alexander D. Gitlin
+  publisher: Nature
+  date: '2025-11-03'
+  link: https://doi.org/g9833k
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/vexasBE.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s43018-025-01056-4
+  title: Engineering T cells with a membrane-tethered version of SLP-76 overcomes
+    antigen-low resistance to CAR T cell therapy
+  authors:
+  - Maria Caterina Rotiroti
+  - Aidan M. Tousley
+  - Hoyin Chu
+  - Marco Herrera-Barrera
+  - Antigoni Manousopoulou
+  - Won-Ju Kim
+  - Yajie Yin
+  - Thomas Spencer Parish
+  - Aniela Mitchell
+  - Malcolm Holterhus
+  - Lea Wenting Rysavy
+  - Guillermo Nicolas Dalton
+  - Katherine Ann Freitas
+  - Gernot Kaber
+  - Korbinian N. Kropp
+  - Christopher A. Klebanoff
+  - Ansuman T. Satpathy
+  - Leo D. Wang
+  - Caleb A. Lareau
+  - Robbie G. Majzner
+  publisher: Nature Cancer
+  date: '2025-10-23'
+  link: https://doi.org/g99ksc
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/rmslp.png
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s43018-025-01009-x
   title: "CAR-engineered lymphocyte persistence is governed by a FAS ligand\u2013\
     FAS autoregulatory circuit"
