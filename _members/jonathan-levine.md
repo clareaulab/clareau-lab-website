@@ -15,4 +15,4 @@ research in the “real-world evidence” space. Before Flatiron Health, Jonatha
 Neuroscience & Math at the University of Pennsylvania in Philadelphia. Outside of lab, you
 can find Jonathan outdoors rock climbing 🧗 or backpacking 🏕, or indoors playing chess ♟ or
 doing the New York Times daily crossword 🧩. Jon rotated in the Lareau Lab in Winter 2024 before 
-joining the Greenbaum and Victoria Labs. 
+joining the Greenbaum and Victora Labs. 

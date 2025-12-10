@@ -602,19 +602,23 @@
     link: https://clareaulab.com/publications/?search=featured
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2023.04.23.537997
-  title: Codon affinity in mitochondrial DNA shapes evolutionary and somatic fitness
+- id: doi:10.1073/pnas.2505704122
+  title: "Cell type\u2013specific purifying selection of synonymous mitochondrial\
+    \ DNA variation"
   authors:
   - Caleb A. Lareau
+  - Patrick Maschmeyer
   - Yajie Yin
   - Jacob C. Gutierrez
   - Ryan S. Dhindsa
   - Anne-Sophie Gribling-Burrer
+  - Sebastian Zielinski
   - Yu-Hsin Hsieh
   - Lena Nitsch
+  - Veronika Dimitrova
+  - Benan Nalbant
   - Frank A. Buquicchio
   - Tsion Abay
-  - Sebastian Zielinski
   - Robert R. Stickels
   - Jacob C. Ulirsch
   - Patrick Yan
@@ -623,34 +627,156 @@
   - Katalin Sandor
   - Bence Daniel
   - Vincent Liu
-  - Quanli Wang
-  - Fengyuan Hu
-  - Katherine R. Smith
-  - Sri V.V. Deevi
-  - Patrick Maschmeyer
-  - "Slav\xE9 Petrovski"
-  - Redmond P. Smyth
+  - Paul L. Mendez
+  - Petra Knaus
+  - Manpreet Meyer
   - William J. Greenleaf
   - Anshul Kundaje
+  - Redmond P. Smyth
   - Mathias Munschauer
   - Leif S. Ludwig
   - Ansuman T. Satpathy
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-04-23'
-  link: https://doi.org/gr7bzp
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2025-07-24'
+  link: https://doi.org/g9vhds
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/m7076.png
   buttons:
   - type: paper
     text: PDF
-    link: https://www.biorxiv.org/content/10.1101/2023.04.23.537997v1.full.pdf
+    link: https://clareaulab.github.io/pdfs/LareauMaschmeyer-PNAS-2025.pdf
   - type: github
     text: Code
-    link: caleblareau/m7076
+    link: caleblareau/7076
+  - type: pod
+    text: Podcast
+    link: https://basebybase.castos.com/episodes/cell-type-specific-purifying-selection-of-synonymous-mtdna
   - type: twitter
     text: Tweetorial
     link: CalebLareau/status/1650390670904016897
+  - type: featured
+    text: Featured
+    link: https://clareaulab.com/publications/?search=featured
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.07.16.665245
+  title: Clonal lineage tracing of innate immune cells in human cancer
+  authors:
+  - Vincent Liu
+  - Katalin Sandor
+  - Patrick K. Yan
+  - Max Miao
+  - Yajie Yin
+  - Robert R. Stickels
+  - Andy Y. Chen
+  - Kamir Hiam-Galvez
+  - Jacob Gutierrez
+  - Wenxi Zhang
+  - Sairaj M. Sajjath
+  - Raeline Valbuena
+  - Steven Wang
+  - "Bence D\xE1niel"
+  - Leif S. Ludwig
+  - Brooke E. Howitt
+  - Caleb Lareau
+  - Ansuman T. Satpathy
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-07-21'
+  link: https://doi.org/g9vhdt
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/vincentmyeloid.png
+  buttons:
+  - type: paper
+    text: PDF
+    link: https://www.biorxiv.org/content/10.1101/2025.07.16.665245v1.full.pdf
   - type: fire
-    text: bioRxiv
+    text: Preprint
+    link: https://clareaulab.com/publications/?search=preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.07.18.665549
+  title: Population-scale sequencing resolves correlates and determinants of latent
+    Epstein-Barr Virus infection
+  authors:
+  - Sherry S. Nyeo
+  - Erin M. Cumming
+  - Oliver S. Burren
+  - Meghana S. Pagadala
+  - Jacob C. Gutierrez
+  - Thahmina A. Ali
+  - Laura C. Kida
+  - Yifan Chen
+  - Fengyuan Hu
+  - Benjamin Hollis
+  - Margarete Fabre
+  - Stewart MacArthur
+  - Quanli Wang
+  - Leif S. Ludwig
+  - Kushal K. Dey
+  - "Slav\xE9 Petrovski"
+  - Ryan S. Dhindsa
+  - Caleb A. Lareau
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-07-18'
+  link: https://doi.org/g9vhdv
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
+  buttons:
+  - type: paper
+    text: PDF
+    link: https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
+  - type: github
+    text: Code
+    link: clareaulab/ebv_biobank_gwas
+  - type: website
+    text: Bluesky
+    link: https://bsky.app/profile/caleblareau.bsky.social/post/3lulitd76es2l
+  - type: featured
+    text: Featured
+    link: https://clareaulab.com/publications/?search=featured
+  - type: fire
+    text: Preprint
+    link: https://clareaulab.com/publications/?search=preprint
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2024.07.30.605881
+  title: "Logan: Planetary-Scale Genome Assembly Surveys Life\u2019s Diversity"
+  authors:
+  - Rayan Chikhi
+  - "T\xE9o Lemane"
+  - "Rapha\xEBl Loll-Krippleber"
+  - "Merc\xE8 Montoliu-Nerin"
+  - Brice Raffestin
+  - Antonio Pedro Camargo
+  - Carson J. Miller
+  - Mateus Bernabe Fiamenghi
+  - Daniel Paiva Agustinho
+  - Sina Majidian
+  - Greg Autric
+  - Maxime Hugues
+  - Junkyoung Lee
+  - Roland Faure
+  - Kristen D. Curry
+  - Jorge A. Moura de Sousa
+  - Eduardo P. C. Rocha
+  - David Koslicki
+  - Paul Medvedev
+  - Purav Gupta
+  - Jessica Shen
+  - Alejandro Morales-Tapia
+  - Kate Sihuta
+  - Peter J. Roy
+  - Grant W. Brown
+  - Robert C. Edgar
+  - Anton Korobeynikov
+  - Martin Steinegger
+  - Caleb A. Lareau
+  - Pierre Peterlongo
+  - Artem Babaian
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-07-31'
+  link: https://doi.org/g99rmp
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/logansra.png
+  buttons:
+  - type: fire
+    text: Preprint
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
@@ -834,6 +960,123 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s41588-025-02374-0
+  title: Functionally dominant hotspot mutations of mitochondrial ribosomal RNA genes
+    in cancer
+  authors:
+  - Sonia Boscenco
+  - Jacqueline Tait-Mulder
+  - Minsoo Kim
+  - Cerise Tang
+  - Tricia Park
+  - Flora McNulty
+  - Sergio Lilla
+  - Sara Zanivan
+  - Alejandro Huerta-Uribe
+  - Benan Nalbant
+  - Mark Zucker
+  - David Sumpton
+  - Geoffray Monteuuis
+  - Christopher B. Jackson
+  - Wei Wei
+  - Patrick F. Chinnery
+  - Ronan Chaligne
+  - Caleb A. Lareau
+  - Ed Reznik
+  - Payam A. Gammage
+  publisher: Nature Genetics
+  date: '2025-11-03'
+  link: https://doi.org/g99ksb
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mitoribosonia.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41586-025-09815-0
+  title: Independent mechanisms of inflammation and myeloid bias in VEXAS syndrome
+  authors:
+  - Varun K. Narendra
+  - Tandrila Das
+  - Linsey J. Wierciszewski
+  - Rebecca J. Londoner
+  - Joshua K. Morrison
+  - Pia Martindale
+  - Tessa Devine
+  - Kevin Chen
+  - Michael Trombetta
+  - Yuzuka Kanno
+  - Alejandro E. Casiano
+  - Elisa de Stanchina
+  - Caleb A. Lareau
+  - Scott W. Lowe
+  - Alexander D. Gitlin
+  publisher: Nature
+  date: '2025-11-03'
+  link: https://doi.org/g9833k
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/vexasBE.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s43018-025-01056-4
+  title: Engineering T cells with a membrane-tethered version of SLP-76 overcomes
+    antigen-low resistance to CAR T cell therapy
+  authors:
+  - Maria Caterina Rotiroti
+  - Aidan M. Tousley
+  - Hoyin Chu
+  - Marco Herrera-Barrera
+  - Antigoni Manousopoulou
+  - Won-Ju Kim
+  - Yajie Yin
+  - Thomas Spencer Parish
+  - Aniela Mitchell
+  - Malcolm Holterhus
+  - Lea Wenting Rysavy
+  - Guillermo Nicolas Dalton
+  - Katherine Ann Freitas
+  - Gernot Kaber
+  - Korbinian N. Kropp
+  - Christopher A. Klebanoff
+  - Ansuman T. Satpathy
+  - Leo D. Wang
+  - Caleb A. Lareau
+  - Robbie G. Majzner
+  publisher: Nature Cancer
+  date: '2025-10-23'
+  link: https://doi.org/g99ksc
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/rmslp.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s43018-025-01009-x
+  title: "CAR-engineered lymphocyte persistence is governed by a FAS ligand\u2013\
+    FAS autoregulatory circuit"
+  authors:
+  - Fei Yi
+  - Tal Cohen
+  - Natalie Zimmerman
+  - "Friederike D\xFCndar"
+  - Paul Zumbo
+  - Razan Eltilib
+  - Erica J. Brophy
+  - Hannah Arkin
+  - Judith Feucht
+  - Michael V. Gormally
+  - Christopher S. Hackett
+  - Korbinian N. Kropp
+  - Inaki Etxeberria
+  - Smita S. Chandran
+  - Zeguo Zhao
+  - Winson Cai
+  - Anthony F. Daniyan
+  - Jae H. Park
+  - Caleb A. Lareau
+  - Katharine C. Hsu
+  - Michel Sadelain
+  - Doron Betel
+  - Christopher A. Klebanoff
+  publisher: Nature Cancer
+  date: '2025-07-22'
+  link: https://doi.org/g9t2s8
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ckfasl.png
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s41592-025-02657-8
   title: Methods for multiplexing single-cell multi-omics
   authors:
@@ -904,7 +1147,7 @@
   - "Dana Pe\u2019er"
   - Agnel Sfeir
   publisher: Cell
-  date: '2025-03-01'
+  date: '2025-05-01'
   link: https://doi.org/g87vp5
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/sfeirmtdel.png
   plugin: sources.py

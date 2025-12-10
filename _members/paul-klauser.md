@@ -1,7 +1,9 @@
 ---
 name: Paul Klauser
 image: images/people/paul-klauser.jpg
-role: postdoc
+description: Postdoctoral Fellow
+role: coment
+group: coment
 links:
 
 ---
@@ -13,3 +15,4 @@ San Francisco. His doctoral research focused on developing bioreactive unnatural
 and designing covalent protein drugs for cancer therapy and diagnostics.
 Paul applies advanced protein engineering and computational strategies to improve radiopharmaceuticals
 for oncology. Outside the lab, he enjoys running, swimming, and cheering for Bay Area sports teams 🌉.
+Paul is co-advised with the [Jason Lewis Lab @ MSKCC](https://www.mskcc.org/research/ski/labs/jason-lewis).

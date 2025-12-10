@@ -288,7 +288,10 @@
       link: https://clareaulab.github.io/pdfs/LareauMaschmeyer-PNAS-2025.pdf
     - type: github
       text: Code
-      link: caleblareau/m7076
+      link: caleblareau/7076
+    - type: pod
+      text: Podcast
+      link: https://basebybase.castos.com/episodes/cell-type-specific-purifying-selection-of-synonymous-mtdna
     - type: twitter
       text: Tweetorial
       link: CalebLareau/status/1650390670904016897
@@ -318,7 +321,7 @@
   buttons:
     - type: paper
       text: PDF
-      link:https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
+      link: https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
     - type: github
       text: Code
       link: clareaulab/ebv_biobank_gwas
@@ -331,8 +334,14 @@
     - type: fire
       text: Preprint
       link: https://clareaulab.com/publications/?search=preprint
-     
 
+# Logan
+- id: doi:10.1101/2024.07.30.605881
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/logansra.png
+  buttons:
+    - type: fire
+      text: Preprint
+      link: https://clareaulab.com/publications/?search=preprint
 
 # Leif / Josch
 - id: doi:10.21203/rs.3.rs-6539733/v1
@@ -385,8 +394,17 @@
 
 ############
 
-
 # everything else
+
+- id: doi:10.1038/s41588-025-02374-0
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mitoribosonia.png
+
+- id: doi:10.1038/s41586-025-09815-0
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/vexasBE.png
+
+- id: doi:10.1038/s43018-025-01056-4
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/rmslp.png
+
 - id: doi:10.1038/s43018-025-01009-x
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ckfasl.png
 
