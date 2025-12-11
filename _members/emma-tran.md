@@ -12,7 +12,10 @@ Emma was an undergraduate summer student in the Lareau Lab through the
 by the Tri-Institutional PhD Program in Computational Biology & Medicine. 
 Her summer research focused on single-cell lineage tracing to evaluate and 
 enhance adoptive cell therapy. As an international student from Vietnam, 
-she is completing her bachelor's degree at Luther College in Decorah, IA, 
-majoring in statistics with a minor in biology. When she’s not doing science, 
+she completed her bachelor's degree at Luther College in Decorah, IA, 
+majoring in statistics with a minor in biology. 
+She is currently a PhD student in computational biology
+at [Iowa State University](https://www.bcb.iastate.edu/people/emma-tran).
+When she’s not doing science, 
 Emma is an _accomplished_ fanfiction writer on Wattpad (✍🏼) and 
 dedicated film reviewer on Letterboxd (🎬).
