@@ -18,7 +18,7 @@ carousels:
 
 
 {% include section.html %}
-# {% include icon.html icon="fa-solid fa-champagne-glasses" %}Welcome!
+## {% include icon.html icon="fa-solid fa-champagne-glasses" %}Welcome!
 
 {% include carousel.html height="40" unit="%" duration="10" number="1" %}
 
