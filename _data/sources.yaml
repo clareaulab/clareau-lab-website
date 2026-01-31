@@ -75,7 +75,7 @@
   buttons:
     - type: paper
       text: PDF
-      link: https://clareaulab.github.io/pdfs/Nitsch-Lareau-Ludwig.pdf
+      link: https://clareaulab.github.io/pdfs/NitschLareauLudwig-NG-2024.pdf
     - type: featured
       text: Featured
       link: https://clareaulab.com/publications/?search=featured
@@ -334,12 +334,12 @@
 
      
 #EBV
-- id: doi:10.1101/2025.07.18.665549
+- id: doi:10.1038/s41586-025-10020-2
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
   buttons:
     - type: paper
       text: PDF
-      link: https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
+      link: https://clareaulab.github.io/pdfs/Nyeo-Nature-2026.pdf
     - type: github
       text: Code
       link: clareaulab/ebv_biobank_gwas
@@ -349,9 +349,9 @@
     - type: featured
       text: Featured
       link: https://clareaulab.com/publications/?search=featured
-    - type: fire
-      text: Preprint
-      link: https://clareaulab.com/publications/?search=preprint
+    - type: website
+      text: News and Views
+      link: https://clareaulab.github.io/pdfs/Wade-Hollenbach-Nature-2026.pdf
 
 # Logan
 - id: doi:10.1101/2024.07.30.605881
@@ -370,13 +370,8 @@
       link: https://clareaulab.com/publications/?search=preprint
 
 # Kenny
-- id: doi:10.1101/2025.02.12.637857
+- id: doi:10.1016/j.ccell.2025.12.010
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
-  buttons:
-    - type: fire
-      text: bioRxiv
-      link: https://clareaulab.com/publications/?search=preprint
-
 
 # Bdaniel
 - id: doi:10.1101/2024.02.29.582872
