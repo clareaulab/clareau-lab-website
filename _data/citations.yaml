@@ -131,7 +131,7 @@
   buttons:
   - type: paper
     text: PDF
-    link: https://clareaulab.github.io/pdfs/Nitsch-Lareau-Ludwig.pdf
+    link: https://clareaulab.github.io/pdfs/NitschLareauLudwig-NG-2024.pdf
   - type: featured
     text: Featured
     link: https://clareaulab.com/publications/?search=featured
@@ -722,9 +722,8 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2025.07.18.665549
-  title: Population-scale sequencing resolves correlates and determinants of latent
-    Epstein-Barr Virus infection
+- id: doi:10.1038/s41586-025-10020-2
+  title: Population-scale sequencing resolves determinants of persistent EBV DNA
   authors:
   - Sherry S. Nyeo
   - Erin M. Cumming
@@ -734,9 +733,11 @@
   - Thahmina A. Ali
   - Laura C. Kida
   - Yifan Chen
+  - Hoyin Chu
   - Fengyuan Hu
+  - Xueqing Zoe Zou
   - Benjamin Hollis
-  - Margarete Fabre
+  - Margarete A. Fabre
   - Stewart MacArthur
   - Quanli Wang
   - Leif S. Ludwig
@@ -744,14 +745,14 @@
   - "Slav\xE9 Petrovski"
   - Ryan S. Dhindsa
   - Caleb A. Lareau
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-07-18'
-  link: https://doi.org/g9vhdv
+  publisher: Nature
+  date: '2026-01-28'
+  link: https://doi.org/hbmrq3
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
   buttons:
   - type: paper
     text: PDF
-    link: https://www.biorxiv.org/content/10.1101/2025.07.18.665549v1.full.pdf
+    link: https://clareaulab.github.io/pdfs/Nyeo-Nature-2026.pdf
   - type: github
     text: Code
     link: clareaulab/ebv_biobank_gwas
@@ -761,9 +762,9 @@
   - type: featured
     text: Featured
     link: https://clareaulab.com/publications/?search=featured
-  - type: fire
-    text: Preprint
-    link: https://clareaulab.com/publications/?search=preprint
+  - type: website
+    text: News and Views
+    link: https://clareaulab.github.io/pdfs/Wade-Hollenbach-Nature-2026.pdf
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2024.07.30.605881
@@ -835,9 +836,9 @@
     link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2025.02.12.637857
-  title: A pathogenic subpopulation of human glioma associated macrophages linked
-    to glioma progression
+- id: doi:10.1016/j.ccell.2025.12.010
+  title: Characterization of a pathogenic subpopulation of human glioma associated
+    macrophages linked to glioma progression
   authors:
   - Kenny Kwok Hei Yu
   - Zaki Abou-Mrad
@@ -856,14 +857,10 @@
   - Nathalie Y.R. Agar
   - Taha Merghoub
   - Viviane Tabar
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-02-17'
-  link: https://doi.org/g9d6ws
+  publisher: Cancer Cell
+  date: '2026-01-01'
+  link: https://doi.org/hbm2st
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
-  buttons:
-  - type: fire
-    text: bioRxiv
-    link: https://clareaulab.com/publications/?search=preprint
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2024.02.29.582872
