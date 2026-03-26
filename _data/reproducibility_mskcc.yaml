@@ -7,7 +7,7 @@
   authors: 
   - Here, we utilize the existing chrEBV contig in the hg38 reference genome to reconstruct measures of past EBV infection and current viral persistence from hundreds of thousands of individuals for genetic and phenotypic associations studies. 
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
-  publisher: <a href="https://clareaulab.com/perffseq/">PERFF-seq</a>
+  publisher: <a href="https://clareaulab.com/protocols/virus/index.html">Viruses in -seq data</a>
   date: '2026-01-28'
   buttons:
     - type: github
