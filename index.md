@@ -2,6 +2,7 @@
 title: Home
 carousels:
   - images: 
+    - image: /images/group/c4s2026.png
     - image: /images/group/highschoolstem.png
     - image: /images/group/rickmorty2024.png
     - image: /images/group/tacotuesday.png
@@ -12,7 +13,6 @@ carousels:
     - image: /images/group/bigpizza.png
     - image: /images/group/holidayparty2023.jpg
     - image: /images/group/duckies.jpg
-    - image: /images/group/playthatgoeswrong.png
 
 ---
 

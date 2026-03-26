@@ -1,6 +1,25 @@
 
 # Links for reproducibility
 
+# EBV
+- id: Led by <a href="https://clareaulab.com/members/sherry-nyeo.html">Sherry</a> with <a href="https://www.dhindsalab.com/">Dhindsa Lab</a> and <a href="https://www.astrazeneca.com/our-company/our-people/slave-petrovski.html">AZ CGR</a>
+  title: <b>Population-scale sequencing resolves determinants of persistent EBV DNA</b>
+  authors: 
+  - Here, we utilize the existing chrEBV contig in the hg38 reference genome to reconstruct measures of past EBV infection and current viral persistence from hundreds of thousands of individuals for genetic and phenotypic associations studies. 
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
+  publisher: <a href="https://clareaulab.com/perffseq/">PERFF-seq</a>
+  date: '2026-01-28'
+  buttons:
+    - type: github
+      text: Code
+      link: clareaulab/ebv_biobank_gwas
+    - type: geodata
+      text: Terra Workspace
+      link: https://app.terra.bio/#workspaces/anvil-datastorage/1000G-high-coverage-2019
+    - type: geodata
+      text: UKB
+      link: https://www.ukbiobank.ac.uk/use-our-data/research-analysis-platform/
+      
 # PERFF-seq
 - id: Led by <a href="https://clareaulab.com/members/tsion-abay.html">Tsion</a> with <a href="https://satpathylab.com/">Satpathy Lab</a> and <a href="https://www.mskcc.org/research/ski/innovation-labs/single-cell-analytics-innovation-lab-sail">SAIL</a>
   title: <b>Programmable Enrichment via RNA FlowFISH by sequencing</b>
@@ -8,7 +27,7 @@
   - PERFF-seq is new workflow for studying rare cell types via nucleic acid cytometry upstream of scRNA-seq. Our resources highlight code to reproduce downstream analyses of PERFF-seq data as well as step-by-step protocols for performing your own experiment. 
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/perffoverview.png
   publisher: <a href="https://clareaulab.com/perffseq/">PERFF-seq</a>
-  date: '2024-12-31'
+  date: '2025-01-08'
   buttons:
     - type: github
       text: Code

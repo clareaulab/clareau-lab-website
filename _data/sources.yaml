@@ -1,6 +1,30 @@
 
 # highlighted articles
 
+#EBV
+- id: doi:10.1038/s41586-025-10020-2
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
+  buttons:
+    - type: paper
+      text: PDF
+      link: https://clareaulab.github.io/pdfs/Nyeo-Nature-2026.pdf
+    - type: github
+      text: Code
+      link: clareaulab/ebv_biobank_gwas
+    - type: pod
+      text: Podcast
+      link: https://www.youtube.com/watch?v=MJozamwevZQ
+    - type: website
+      text: Bluesky
+      link: https://bsky.app/profile/caleblareau.bsky.social/post/3lulitd76es2l
+    - type: featured
+      text: Featured
+      link: https://clareaulab.com/publications/?search=featured
+    - type: website
+      text: News and Views
+      link: https://clareaulab.github.io/pdfs/Wade-Hollenbach-Nature-2026.pdf
+
+
 #DNCT
 - id: doi:10.64898/2025.12.12.694033
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/denovocart1.png
@@ -80,7 +104,6 @@
       text: Featured
       link: https://clareaulab.com/publications/?search=featured
       
-
 
 # HHV6
 - id: doi:10.1038/s41586-023-06704-2
@@ -332,26 +355,6 @@
       text: Preprint
       link: https://clareaulab.com/publications/?search=preprint
 
-     
-#EBV
-- id: doi:10.1038/s41586-025-10020-2
-  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
-  buttons:
-    - type: paper
-      text: PDF
-      link: https://clareaulab.github.io/pdfs/Nyeo-Nature-2026.pdf
-    - type: github
-      text: Code
-      link: clareaulab/ebv_biobank_gwas
-    - type: website
-      text: Bluesky
-      link: https://bsky.app/profile/caleblareau.bsky.social/post/3lulitd76es2l
-    - type: featured
-      text: Featured
-      link: https://clareaulab.com/publications/?search=featured
-    - type: website
-      text: News and Views
-      link: https://clareaulab.github.io/pdfs/Wade-Hollenbach-Nature-2026.pdf
 
 # Logan
 - id: doi:10.1101/2024.07.30.605881
@@ -360,30 +363,10 @@
     - type: fire
       text: Preprint
       link: https://clareaulab.com/publications/?search=preprint
-
-# Leif / Josch
-- id: doi:10.21203/rs.3.rs-6539733/v1
-  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/joschHEK.png
-  buttons:
-    - type: fire
-      text: Preprint
-      link: https://clareaulab.com/publications/?search=preprint
-
-# Kenny
-- id: doi:10.1016/j.ccell.2025.12.010
-  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
-
+      
 # Bdaniel
 - id: doi:10.1101/2024.02.29.582872
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/bdanielmac.png
-  buttons:
-    - type: fire
-      text: bioRxiv
-      link: https://clareaulab.com/publications/?search=preprint
-
-# EF skin
-- id: doi:10.1101/2023.10.29.563503
-  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/EFskin.png
   buttons:
     - type: fire
       text: bioRxiv
@@ -397,17 +380,22 @@
       text: bioRxiv
       link: https://clareaulab.com/publications/?search=preprint
 
-# Siraj pp
-- id: doi:10.1101/2024.05.05.592437
-  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mprasiraj.png
-  buttons:
-    - type: fire
-      text: bioRxiv
-      link: https://clareaulab.com/publications/?search=preprint
-
 ############
 
 # everything else
+
+
+- id: doi:10.1038/s41586-026-10121-6
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mprasiraj.png
+
+- id: doi:10.1038/s41467-026-70399-y
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/joschHEK.png
+
+- id: doi:10.1038/s41467-026-69587-7
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/EFskin.png
+      
+- id: doi:10.1016/j.ccell.2025.12.010
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/kennymac.png
 
 - id: doi:10.1038/s41588-025-02374-0
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mitoribosonia.png
