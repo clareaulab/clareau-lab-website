@@ -11,10 +11,9 @@ nav:
 
 ## Come find us at these upcoming events:
 
-- <b>April 20-22, 2026</b> - [AACR annual meeting](https://www.aacr.org/meeting/aacr-annual-meeting-2026/); San Diego, CA
 - <b>June 4–8, 2026</b> - [2026 ASM Microbe](https://asm.org/events/asm-microbe/home); Washington, DC
-- <b>June 10-12, 2026</b> - [6th annual Single Cell Biology](https://coursesandconferences.wellcomeconnectingscience.org/event/single-cell-biology-20260610/); Hinxton, UK
 - <b>October 20-24, 2026</b> - [American Society of Human Genetics Meeting](https://www.ashg.org/meetings/); Montreal, Canada
+
 
 ## Lab address
 

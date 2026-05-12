@@ -1,6 +1,40 @@
 
 # highlighted articles
 
+#GIFT
+- id: doi:10.64898/2026.04.11.717967
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/giftseq.png
+  buttons:
+    - type: paper
+      text: PDF
+      link: https://www.biorxiv.org/content/10.64898/2026.04.11.717967v1.full.pdf
+    - type: github
+      text: Code
+      link: clareaulab/giftwrap
+    - type: twitter
+      text: Tweetorial
+      link: CalebLareau/status/https://x.com/CalebLareau/status/2043703619795742814
+    - type: featured
+      text: Featured
+      link: https://clareaulab.com/publications/?search=featured
+
+#HSV1
+- id: doi:10.64898/2026.04.29.721769
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/hsv1ad.png
+  buttons:
+    - type: paper
+      text: PDF
+      link: https://www.biorxiv.org/content/10.64898/2026.04.29.721769v1.full.pdf
+    - type: github
+      text: Code
+      link: clareaulab/ad-hsv-mapping
+    - type: twitter
+      text: Tweetorial
+      link: CalebLareau/status/2000149846582493578
+    - type: featured
+      text: Featured
+      link: https://clareaulab.com/publications/?search=featured
+      
 #EBV
 - id: doi:10.1038/s41586-025-10020-2
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/ebvinfection.png
@@ -24,6 +58,22 @@
       text: News and Views
       link: https://clareaulab.github.io/pdfs/Wade-Hollenbach-Nature-2026.pdf
 
+#DNCT
+- id: doi:10.64898/2025.12.12.694033
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/denovocart1.png
+  buttons:
+    - type: paper
+      text: PDF
+      link: https://www.biorxiv.org/content/10.64898/2025.12.12.694033v1.full.pdf
+    - type: github
+      text: Code
+      link: clareaulab/CARPNN
+    - type: twitter
+      text: Tweetorial
+      link: CalebLareau/status/2000149846582493578
+    - type: featured
+      text: Featured
+      link: https://clareaulab.com/publications/?search=featured
 
 #DNCT
 - id: doi:10.64898/2025.12.12.694033
@@ -384,6 +434,8 @@
 
 # everything else
 
+- id: doi:10.1021/jacs.5c20726
+  image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/davidsplice.png
 
 - id: doi:10.1038/s41586-026-10121-6
   image: https://raw.githubusercontent.com/clareaulab/clareau-lab-website/main/images/researchpngs/mprasiraj.png
