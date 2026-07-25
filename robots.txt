@@ -1,1 +1,1 @@
-Sitemap: https://clareaulab.com/sitemap.xml
+Sitemap: https://clareaulab.github.io/clareau-lab-website-archieved-20260725/sitemap.xml
